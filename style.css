@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: underline;
+    color: #1abc9c;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+}
+
+.section {
+    background-color: #f0f4f8;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 28px;
+    color: #e58a3f;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.section p {
+    font-size: 16px;
+    color: #0f1107;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.section h3 {
+    font-size: 28px;
+    color: #e46b09;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3ea5d8
+}
+.section strong {
+    font-size: 18px;
+    color: #040404da;
+}
+
+.skills-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.section h2 {
+    font-size: 28px;
+    color: #e46b09;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3ea5d8
+}
+
+.section strong {
+    font-size: 18px;
+    color: #040404da;
+}
+
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+    border-top: 3px solid #3498db;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #3498db;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #1abc9c;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #1abc9c;
+    transform: scale(1.1);
+}
